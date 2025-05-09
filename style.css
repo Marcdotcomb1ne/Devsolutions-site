@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#clique:hover{
+    color: rgb(55, 102, 255);
+    transition: .5s;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: url(OIP.jpg) center center/cover repeat;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    color: white;
+    margin-top: 100px;
+}
+.container3{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    color: white;
+    margin-top: 100px;
+}
+.container2{
+    display: flex;
+}
+
+p#p{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+img{
+    filter: sepia(100%) saturate(0%) brightness(0%);
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    text-shadow: 0 0 5px rgb(19, 82, 255), 0 0 100px rgb(0, 140, 255), 0 0 300px rgb(19, 94, 255);
+}
+
+#msg{
+    height: 50px;
+}
+
+.card{
+    margin: 30px;
+}
+
+.input-group.input-group-sm.mb-3{
+    width: 287px;
+}
+
+.cor{
+    background-color: black;
+}
+
+.custom-select{
+    width: 287px;
+    border-radius: 10px;
+}
+
+#botao{
+    margin: 30px;
+}
+
+
+#contato, #home, #sobre{
+    height: 100vh;
+}
