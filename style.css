@@ -39,6 +39,10 @@ body{
     display: flex;
 }
 
+section{
+    transition: left 4s ease-in-out;
+}
+
 p#p{
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-weight: 400;
