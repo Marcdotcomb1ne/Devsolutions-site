@@ -7,25 +7,6 @@ function validateForm() {
         return false;
     }
     alert("Sucesso");
-    window.location.href = (proxpath);
     return true; 
     
-}
-
-function caixas() {
-
-const botao = document.getElementById ('caixas');
-const caixao = document.getElementById ('posicao');
-
-const container1 = document.createElement('div');
-container1.className = "caixote";
-container1.textContent = "Desenvolvimento de Software";
-
-const container2 = document.createElement('div');
-container1.className = "caixote";
-container1.textContent = "Consultoria em Tecnologia";
-
-caixao.appendChild(container1);
-caixao.appendChild(container2);
-
 }

@@ -30,29 +30,29 @@
   <header>
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">DevSolutions</a>
+      <a class="navbar-brand" id="clique" href="#">DevSolutions</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+            <a class="nav-link active" aria-current="page" id="clique" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sobre">SOBRE</a>
+            <a class="nav-link" id="clique" href="#sobre">SOBRE</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" id="clique" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               SERVIÇOS
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">DESENVOLVIMENTO DE SOFTWARE</a></li>
-              <li><a class="dropdown-item" href="#">CONSULTORIA DE TECNOLOGIA</a></li>
+              <li><a class="dropdown-item" id="clique" href="#">DESENVOLVIMENTO DE SOFTWARE</a></li>
+              <li><a class="dropdown-item" id="clique" href="#">CONSULTORIA DE TECNOLOGIA</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contato">CONTATO</a>
+            <a class="nav-link" id="clique" href="#contato">CONTATO</a>
           </li>
         </ul>
       </div>
@@ -68,26 +68,6 @@
   <p id="p">Onde sua ideia vira código, e o impossível vira entrega.</p>
 </div>
 </section>
-
-  <section id="contato">
-    <div class="container3">
-        <form action="" method="post" id="myForm">
-            <div class="input-group input-group-sm mb-3" data-bs-theme="dark">
-                <span class="input-group-text" id="inputGroup-sizing-sm">Nome</span>
-                <input type="text" class="form-control" id="nome" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3" data-bs-theme="dark">
-                <span class="input-group-text" id="inputGroup-sizing-sm">E-mail</span>
-                <input type="email" class="form-control" id="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="input-group input-group-sm mb-3" data-bs-theme="dark">
-              <span class="input-group-text" id="inputGroup-sizing-sm">Mensagem</span>
-              <input type="text" class="form-control" id="msg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <button type="button" class="btn btn-primary" onclick="validateForm()" id="botao">Enviar</button>
-    </div>
-    
-    </section>
 
     <section id="sobre">
       <div class="container">
@@ -107,6 +87,26 @@
         </div>
     </div>
     </section>
+
+    <section id="contato">
+      <div class="container3">
+          <form action="" method="post" id="myForm">
+              <div class="input-group input-group-sm mb-3" data-bs-theme="dark">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Nome</span>
+                  <input type="text" class="form-control" id="nome" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <div class="input-group input-group-sm mb-3" data-bs-theme="dark">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">E-mail</span>
+                  <input type="email" class="form-control" id="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <div class="input-group input-group-sm mb-3" data-bs-theme="dark">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Mensagem</span>
+                  <textarea class="form-control" id="msg" rows="3" aria-label="Mensagem" aria-describedby="inputGroup-sizing-sm"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary" onclick="validateForm()" id="botao">Enviar</button>
+      </div>
+      
+      </section>
 
     <script src="script.js"></script>
 </body>

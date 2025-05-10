@@ -5,7 +5,10 @@
 
 #clique:hover{
     color: rgb(55, 102, 255);
+    text-shadow: 0 0 10px rgb(19, 82, 255), 0 0 20px rgb(0, 140, 255), 0 0 30px rgb(19, 94, 255);
+    background-color: rgb(27, 26, 26);
     transition: .5s;
+    border-radius: 10px;
 }
 header{
     position: fixed;
@@ -39,6 +42,10 @@ body{
     display: flex;
 }
 
+.form-control{
+    resize: none;
+}
+
 section{
     transition: left 4s ease-in-out;
 }
@@ -65,7 +72,7 @@ img{
 }
 
 #msg{
-    height: 50px;
+    height: 100px;
 }
 
 .card{
