@@ -36,7 +36,7 @@ body{
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     color: white;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .container2{
     display: flex;
